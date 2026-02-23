@@ -11,16 +11,21 @@ print(Fore.YELLOW + "===========================================")
 while True:
     try:
         edad = int(input("Ingrese su Edad: "))
-
+        
         if edad >= 0 and edad <= 12:
             print("Categoría: Niño")
+            
         elif edad >= 13 and edad <= 17:
             print("Categoría: Adolescente")
+            
         elif edad >= 18 and edad <= 64:
             print("Categoría: Adulto")
+            
         elif edad >= 65:
             print("Categoría: Adulto Mayor")
+            
         else:
             print("Edad Inválida")
+            
     except ValueError:
         print("Error: Edad no Válida")

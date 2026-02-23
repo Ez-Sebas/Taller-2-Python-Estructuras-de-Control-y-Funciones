@@ -19,11 +19,14 @@ while True:
         
         if opcion == 1:
             print("Hola Señor Usuario. Espero que se Encuentre bien. ")
+            
         elif opcion == 2:
             print("Hasta Luego Señor Usuario. Que Tenga un Excelente Día.")
+            
         elif opcion == 3:
             print("Saliendo del Programa. ¡Adiós!")
             break
+        
         else:
             print("Opción no Válida. Intente Nuevamente.")
             

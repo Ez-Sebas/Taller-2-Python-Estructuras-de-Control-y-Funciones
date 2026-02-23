@@ -16,9 +16,10 @@ while True:
             posicion_arroba = correo.find("@")
             posicion_punto = correo.rfind(".")
             
-            if posicion_arroba > 0 and posicion_punto >posicion_arroba + 1 and posicion_punto < len(correo) -1:
+            if posicion_arroba > 0 and posicion_punto > posicion_arroba + 1 and posicion_punto < len(correo) -1:
                 input("Correo Electrónico Válido")
                 break
+            
             else:
                 print("Formato Incorrecto. Intente Nuevamente")
                 

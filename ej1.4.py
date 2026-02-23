@@ -21,8 +21,10 @@ while True:
             for caracter in contraseña:
                 if caracter.isupper():
                     tiene_mayuscula = True
+                    
                 elif caracter.isdigit():
                     tiene_numero = True
+                    
                 elif caracter in caracteres_especiales:
                     tiene_especial = True
                     
@@ -43,9 +45,11 @@ while True:
             if len(errores) == 0:
                 print("Contraseña Válida.")
                 break
+            
             else:
                 print("Contraseña No Válida. Errores: ")
                 for error in errores:
                     print("-" + error)
+                    
     except ValueError:
         print("Error: Debe Ingresar una Contraseña Válida")

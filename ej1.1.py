@@ -15,5 +15,6 @@ city = input("Registre su Ciudad de Residencia: ")
 
 if age > 0:
     print(f"Hola {name}, tienes {age} años y vives en {city}.")
+    
 else:
     print("Ingrese un Número Positivo")
