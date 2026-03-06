@@ -8,6 +8,7 @@ print(Fore.YELLOW + "===========================================")
 print(Fore.RED + Style.BRIGHT + "Validación de Contraseña Segura")
 print(Fore.YELLOW + "===========================================")
 
+# Bucle que solicita una contraseña hasta que cumpla con los requisitos de seguridad establecidos
 while True:
     try:
             contraseña = input("Ingrese su Contraseña: ")
@@ -18,6 +19,7 @@ while True:
             
             caracteres_especiales = "!@#$%^&*"
             
+            # Recorre cada carácter de la contraseña para verificar si cumple con las condiciones requeridas
             for caracter in contraseña:
                 if caracter.isupper():
                     tiene_mayuscula = True
@@ -30,6 +32,7 @@ while True:
                     
             errores = []
             
+            # Valida cada requisito de la contraseña y guarda los errores encontrados
             if len(contraseña) < 8:
                 errores.append("Debe Tener al Menos 8 Caracteres.")
                 
@@ -42,6 +45,7 @@ while True:
             if not tiene_especial:
                 errores.append("Debe Contener al Menos un Carácter Especial.")
                 
+            # Si no hay errores la contraseña es válida, de lo contrario se muestran los errores    
             if len(errores) == 0:
                 print("Contraseña Válida.")
                 break
@@ -51,5 +55,6 @@ while True:
                 for error in errores:
                     print("-" + error)
                     
+    # Maneja errores si la entrada de datos es incorrecta                
     except ValueError:
         print("Error: Debe Ingresar una Contraseña Válida")

@@ -14,11 +14,13 @@ buscar = input("Ingrese el Nombre que Desea Buscar: ")
 
 encontrado = False
 
+# Recorre la lista de nombres para verificar si el nombre ingresado existe
 for i in range(len(nombres)):
     if nombres[i] == buscar:
         print("El Nombre se Encuentra en la Posición:", i)
         encontrado = True
         break
     
+# Si no se encuentra el nombre se muestra un mensaje indicando que no está en la lista
 if not encontrado:
     print("El Nombre no se Encuentra en la Lista")

@@ -8,10 +8,12 @@ print(Fore.YELLOW + "===========================================")
 print(Fore.RED + Style.BRIGHT + "Clasificación de Edad")
 print(Fore.YELLOW + "===========================================")
 
+# Bucle que solicita la edad del usuario y la clasifica en una categoría según el rango de edad
 while True:
     try:
         edad = int(input("Ingrese su Edad: "))
         
+        # Evalúa el rango de la edad para determinar la categoría correspondiente
         if edad >= 0 and edad <= 12:
             print("Categoría: Niño")
             
@@ -27,5 +29,6 @@ while True:
         else:
             print("Edad Inválida")
             
+    # Maneja errores cuando el usuario no ingresa un número válido
     except ValueError:
         print("Error: Edad no Válida")

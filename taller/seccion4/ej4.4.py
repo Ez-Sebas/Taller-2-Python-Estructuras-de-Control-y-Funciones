@@ -10,13 +10,15 @@ print(Fore.YELLOW + "===========================================")
 
 numeros = []
 
+# Bucle que permite ingresar números hasta que el usuario escriba -1
 while True:
         agregar = int(input("Ingrese un Número (-1 para terminar): "))
         if agregar == -1:
             break
         numeros.append(agregar)
         print("Los Números son:", numeros)
-        
+
+# Si se ingresaron números, calcula diferentes estadísticas
 if len(numeros) > 0:      
     maximo = max(numeros)
     print("El Número Máximo es:", maximo)

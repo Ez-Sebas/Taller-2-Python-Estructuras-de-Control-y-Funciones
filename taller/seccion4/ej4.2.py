@@ -10,6 +10,7 @@ print(Fore.YELLOW + "===========================================")
 
 contact = {}
 
+# Bucle principal que permite gestionar una agenda de contactos mediante un menú
 while True:
     print("\n--- Menú Principal ---")
     print("1. Agregar contacto")
@@ -20,6 +21,7 @@ while True:
     
     op = input("Elige una opción: ")
 
+    # Evalúa la opción seleccionada y ejecuta la acción correspondiente
     match op:
         case "1":
             name = input("Digite Nombre: ").strip()
@@ -46,6 +48,7 @@ while True:
             else:
                 print("Contacto no encontrado.")
 
+        # Muestra todos los contactos almacenados en el diccionario
         case "4":
             if not contact:
                 print("No hay contactos registrados.")

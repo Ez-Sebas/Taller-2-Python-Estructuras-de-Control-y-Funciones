@@ -8,22 +8,26 @@ print(Fore.YELLOW + "===========================================")
 print(Fore.CYAN + Style.BRIGHT + "Refactorización de Menú de Calculadora")
 print(Fore.YELLOW + "===========================================")
 
-
+# Función que realiza la suma de dos números
 def suma(num1, num2):
     return num1 + num2
 
+# Función que realiza la resta de dos números
 def resta(num1, num2):
     return num1 - num2
 
+# Función que realiza la multiplicación de dos números
 def multiplicacion(num1, num2):
     return num1 * num2
 
+# Función que realiza la división de dos números y valida que no sea entre cero
 def division(num1, num2):
     if num2 == 0:
         return None
     return num1 / num2
 
 
+# Bucle que muestra un menú para seleccionar la operación matemática
 while True:
     try:
         print("\nSeleccione una Operación:")
@@ -43,6 +47,7 @@ while True:
             numero1 = float(input("Ingrese el Primer Número: "))
             numero2 = float(input("Ingrese el Segundo Número: "))
 
+            # Ejecuta la función correspondiente según la operación elegida
             if opcion == 1:
                 resultado = suma(numero1, numero2)
             elif opcion == 2:
@@ -60,5 +65,6 @@ while True:
         else:
             print("Opción no válida.")
 
+    # Maneja errores cuando se ingresan valores no numéricos
     except ValueError:
         print("Error: Debe ingresar un número válido.")

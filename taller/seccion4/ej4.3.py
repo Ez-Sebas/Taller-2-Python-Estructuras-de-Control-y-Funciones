@@ -10,6 +10,7 @@ print(Fore.YELLOW + "===========================================")
 
 productos = {}
 
+# Bucle que permite gestionar productos, precios y stock mediante un menú
 while True:
     print("\n--- Menú Principal ---")
     print("1. Agregar Producto")
@@ -18,6 +19,7 @@ while True:
 
     op = input("Elige una Opción: ")
 
+    # Evalúa la opción seleccionada para realizar la operación correspondiente
     match op:
         case "1":
             name = input("Digite Nombre del Producto: ").strip()
@@ -31,6 +33,8 @@ while True:
 
             print("Producto Agregado Correctamente.")
             continue
+
+        # Permite buscar un producto y actualizar su precio
         case "2":
             name = input("Digite el Nombre del Producto a Buscar: ").strip()
             if name in productos:
@@ -40,5 +44,7 @@ while True:
                 print("Precio Actualizado Correctamente.")
             else:
                 print("Producto No Encontrado.")
+
         case "3":
             print("Saliendo del Sistema...")
+            break

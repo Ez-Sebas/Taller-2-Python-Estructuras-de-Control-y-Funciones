@@ -8,6 +8,7 @@ print(Fore.YELLOW + "===========================================")
 print(Fore.RED + Style.BRIGHT + "Simulador de Descuentos")
 print(Fore.YELLOW + "===========================================")
 
+# Bucle que permite calcular descuentos según la categoría seleccionada por el usuario
 while True:
     try:
         
@@ -20,6 +21,7 @@ while True:
         
         opcion = int(input("Ingrese el Número Donde se Encuentra su Categoría: "))
         
+        # Calcula el descuento aplicado al monto de compra según la categoría
         if opcion == 1:
             monto = float(input("Ingrese su Monto de Compra: "))
             cantidad_ahorrada = monto * 0.20
@@ -55,5 +57,6 @@ while True:
         else:
             print("Opción no Válida. Intente Nuevamente.")
             
+    # Maneja errores cuando el usuario ingresa valores incorrectos
     except ValueError:
         print("Error: Debe Ingresar un Número Válido.")

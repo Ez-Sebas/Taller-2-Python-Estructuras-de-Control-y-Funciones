@@ -8,6 +8,7 @@ print(Fore.YELLOW + "===========================================")
 print(Fore.RED + Style.BRIGHT + "Menú Interactivo")
 print(Fore.YELLOW + "===========================================")
 
+# Bucle que muestra un menú de opciones para interactuar con el usuario
 while True:
     try:
         print("Selecciona una Opción")
@@ -17,6 +18,7 @@ while True:
         
         opcion = int(input("Ingrese el Número de la Opción: "))
         
+        # Ejecuta la acción correspondiente según la opción elegida
         if opcion == 1:
             print("Hola Señor Usuario. Espero que se Encuentre bien. ")
             
@@ -30,5 +32,6 @@ while True:
         else:
             print("Opción no Válida. Intente Nuevamente.")
             
+    # Maneja errores cuando se ingresa un valor que no es numérico
     except ValueError:
         print("Error: Debe Ingresar un Número Válido.")

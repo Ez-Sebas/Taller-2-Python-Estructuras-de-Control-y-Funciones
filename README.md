@@ -1,5 +1,6 @@
 # 📘 Taller 2: Python — Estructuras de Control y Funciones
 
+
 ## 📌 Descripción del proyecto
 
 Este repositorio contiene una colección de ejercicios desarrollados en Python como parte del proceso de aprendizaje en programación durante el primer trimestre de la formación en Análisis y Desarrollo de Software.
@@ -68,7 +69,6 @@ A través de los diferentes ejercicios fue posible practicar la construcción de
 
 ## 👨‍🏫 Autor
 
----
+Sebastián Zuleta Echavarría.
 
-Sebastián Zuleta Echavarría
-Aprendiz - 3406211
+Aprendiz - 3406211.

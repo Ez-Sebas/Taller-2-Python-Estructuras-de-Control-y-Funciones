@@ -10,6 +10,7 @@ print(Fore.YELLOW + "===========================================")
 
 nota = float(input("Ingrese su Nota (0-100): "))
 
+# Evalúa el rango de la nota ingresada y asigna la calificación correspondiente
 if 90 <= nota <= 100:
     print("Tu Nota es: A")
     

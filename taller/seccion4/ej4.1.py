@@ -4,12 +4,13 @@ from colorama import init, Fore, Style
 
 init(autoreset=True)
 
-productos = ["Arroz", "Pan", "Huevos", "Pollo", "Leche", "Queso", "Tomate", "Cebolla"]
-
 print(Fore.YELLOW + "===========================================")
 print(Fore.RED + Style.BRIGHT + "Sistema de Lista de Compras")
 print(Fore.YELLOW + "===========================================")
 
+productos = ["Arroz", "Pan", "Huevos", "Pollo", "Leche", "Queso", "Tomate", "Cebolla"]
+
+# Bucle principal que permite administrar la lista de productos mediante un menú
 while True:
     print("\nProductos actuales:", productos)
     print("\nSelecciona lo que quieres hacer:")
@@ -21,6 +22,7 @@ while True:
     try:
         opcion = int(input("Selecciona una opción: "))
 
+        # Permite agregar varios productos a la lista hasta que el usuario escriba "fin"
         if opcion == 1:
             agregados = []
             while True:
@@ -32,6 +34,7 @@ while True:
                 agregados.append(agregar)
                 print("\nProductos agregados:", agregados)
 
+        # Permite eliminar productos existentes en la lista
         elif opcion == 2:
             eliminados = []
             while True:
@@ -53,5 +56,6 @@ while True:
         else:
             print("Opción inválida.")
 
+    # Maneja errores cuando se ingresa un valor que no es numérico
     except ValueError:
         print("Error: Ingresa un número válido.")
