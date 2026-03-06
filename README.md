@@ -67,6 +67,8 @@ El desarrollo de este taller permitió reforzar los fundamentos de programación
 
 A través de los diferentes ejercicios fue posible practicar la construcción de algoritmos y comprender cómo estructurar programas de forma clara, culminando con el desarrollo de un sistema funcional que integra varios de los conocimientos adquiridos durante el proceso de aprendizaje.
 
+---
+
 ## 👨‍🏫 Autor
 
 Sebastián Zuleta Echavarría.
