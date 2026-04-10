@@ -1,5 +1,3 @@
-#Desarrollar un programa que solicite al usuario ingresar una lista de números separados por comas. El algoritmo debe calcular y mostrar: el valor máximo, el valor mínimo, el promedio y la suma total de todos los números.
-
 from colorama import init, Fore, Style
 
 init(autoreset=True)

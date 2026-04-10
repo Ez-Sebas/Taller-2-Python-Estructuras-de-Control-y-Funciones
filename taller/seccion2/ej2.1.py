@@ -1,5 +1,3 @@
-#Crear un algoritmo que solicite la edad de una persona y la clasifique en una de las siguientes categorías: niño (0-12 años), adolescente (13-17 años), adulto (18-64 años) o adulto mayor (65 años o más). Mostrar la categoría correspondiente.
-
 from colorama import init, Fore, Style, Back
 
 init(autoreset=True)

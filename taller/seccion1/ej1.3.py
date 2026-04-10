@@ -1,5 +1,3 @@
-#Validación de correo electrónico: Crear un programa que pida al usuario ingresar un correo electrónico y verifique que contenga lo caracteres "@" y "." en posiciones válidas. Mostrar mensajes apropiados indicando si el correo tiene un formato básico correcto o si presenta errores. 
-
 from colorama import init, Fore, Style, Back
 
 init(autoreset=True)

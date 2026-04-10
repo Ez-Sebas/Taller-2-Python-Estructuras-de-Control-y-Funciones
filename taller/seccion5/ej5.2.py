@@ -1,5 +1,3 @@
-#Implementar una función llamada calcular_promedio que reciba una lista de números como parámetro y retorne el promedio de esos números. Incluir validación para listas vacías.
-
 from colorama import init, Fore, Style
 
 init(autoreset=True)

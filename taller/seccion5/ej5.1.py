@@ -1,5 +1,3 @@
-#Crear una función llamada saludar que reciba dos parámetros: nombre y hora del día. La función debe retornar un saludo apropiado según la hora: "Buenos días [nombre]" (5-12), "Buenas tardes [nombre]" (13-19), "Buenas noches [nombre]" (20-4).
-
 from colorama import init, Fore, Style
 
 init(autoreset=True)

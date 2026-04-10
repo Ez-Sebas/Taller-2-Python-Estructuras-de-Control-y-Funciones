@@ -1,5 +1,3 @@
-#Implementar un algoritmo que permita al usuario ingresar números de manera continua. El programa debe sumar todos los números ingresados hasta que el usuario ingrese el valor 0, momento en el cual mostrará la suma total acumulada.
-
 from colorama import init, Fore, Style, Back
 
 init(autoreset=True)

@@ -1,5 +1,3 @@
-#Calculadora Básica: Desarrollar una calculadora simple que solicite al usuario dos números y una opración matemática (+, -, *, /). El algortimo debe realizar la operación correspondiente y mostrar el resultado. Incluir validación para evitar la división por cero, mostrando un mensaje de error en ese caso.
-
 from colorama import init, Fore, Style, Back
 
 init(autoreset=True)

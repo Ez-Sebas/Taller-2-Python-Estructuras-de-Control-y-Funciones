@@ -1,5 +1,3 @@
-#Dada una lista de diccionarios donde cada diccionario representa un producto con las claves "nombre", "precio" y "stock", crear un programa que permita actualizar el precio de un producto específico buscándolo por su nombre.
-
 from colorama import init, Fore, Style
 
 init(autoreset=True)

@@ -1,5 +1,3 @@
-#Crear un directorio de contactos utilizando diccionarios, donde cada contacto tenga un nombre (clave) y un número telefónico (valor). El sistema debe permitir agregar nuevos contactos, buscar contactos por nombre y eliminar contactos existentes.
-
 from colorama import init, Fore, Style
 
 init(autoreset=True)

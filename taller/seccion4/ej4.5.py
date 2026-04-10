@@ -1,5 +1,3 @@
-#Implementar un programa que permita al usuario ingresar dos listas de elementos. El algoritmo debe mostrar: los elementos comunes a ambas listas, los elementos únicos de la primera lista y los elementos únicos de la segunda lista, implementando esta lógica con ciclos sin usar funciones de conjuntos.
-
 from colorama import init, Fore, Style
 
 init(autoreset=True)

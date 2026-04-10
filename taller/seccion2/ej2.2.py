@@ -1,5 +1,3 @@
-#Implementar un menú interactivo con tres opciones: 1. Saludar, 2. Despedirse, 3. Salir. El programa debe mostrar el menú, leer la opción seleccionada y ejecutar la acción correspondiente utilizando estructuras condicionales if-elif-else.
-
 from colorama import init, Fore, Style, Back
 
 init(autoreset=True)
@@ -15,7 +13,7 @@ while True:
         print("2. Despedirse")
         print("3. Salir")
         
-        opcion = ("Ingrese el Número de la Opción: ")
+        opcion = int(input("Ingrese el Número de la Opción: "))
         
         if opcion == 1:
             print("Hola Señor Usuario. Espero que se Encuentre bien. ")

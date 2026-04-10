@@ -1,5 +1,3 @@
-#Tomar el menú de calculadora desarrollado en ejercicios anteriores y refactorizarlo, convirtiendo cada operación matemática en una función separada. El menú principal debe llamar a estas funciones según la opción seleccionada.
-
 from colorama import init, Fore, Style
 
 init(autoreset=True)
