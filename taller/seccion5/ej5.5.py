@@ -1,5 +1,3 @@
-#Implementar una función llamada factorial que calcule el factorial de un número usando recursión. La función debe recibir un número entero positivo y retornar su factorial. Incluir validación para números negativos.
-
 from colorama import init, Fore, Style
 
 init(autoreset=True)

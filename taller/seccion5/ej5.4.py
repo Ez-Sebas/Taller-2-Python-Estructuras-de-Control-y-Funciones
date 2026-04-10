@@ -1,5 +1,3 @@
-#Crear una función llamada es_palindromo que reciba un texto como parámetro y retorne True si es un palíndromo (se lee igual al derecho y al revés) o False en caso contrario. La función debe ignorar espacios, mayúsculas/minúsculas y signos de puntuación.
-
 from colorama import init, Fore, Style
 
 init(autoreset=True)

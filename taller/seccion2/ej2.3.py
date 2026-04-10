@@ -1,5 +1,3 @@
-#Expandir la calculadora básica del ejercicio 1.2 agregando un menú que permita al usuario realizar múltiples operaciones sin salir del programa. El menú debe incluir las cuatro operaciones básicas y una opción para salir.
-
 from colorama import init, Fore, Style, Back
 
 init(autoreset=True)

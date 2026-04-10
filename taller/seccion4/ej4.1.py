@@ -1,5 +1,3 @@
-#Implementar un sistema de lista de compras que permita al usuario agregar productos, eliminar productos específicos y mostrar todos los productos actuales. Utilizar una lista para almacenar los elementos.
-
 from colorama import init, Fore, Style
 
 init(autoreset=True)

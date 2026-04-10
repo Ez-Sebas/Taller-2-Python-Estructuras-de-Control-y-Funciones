@@ -1,5 +1,3 @@
-#Dada una lista predefinida de nombres, crear un programa que permita al usuario buscar un nombre específico. El algoritmo debe recorrer la lista e indicar si el nombre se encuentra o no en ella, mostrando su posición en caso afirmativo.
-
 from colorama import init, Fore, Style, Back
 
 init(autoreset=True)

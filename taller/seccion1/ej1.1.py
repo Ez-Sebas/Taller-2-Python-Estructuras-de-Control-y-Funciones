@@ -1,5 +1,3 @@
-#Registro de usuario: Crear un algortimo que permita resgitrar los datos de un usuario. El programa debe solicitar: nombre, edad y ciudad de residencia. Luego, mostrar un mensaje personalizado con el siguiente formato: "Hola [nombre], tienes [edad] años y vives en [ciudad]." Validar que la edad sea un número positivo.
-
 from colorama import init, Fore, Back
 
 init(autoreset = True)

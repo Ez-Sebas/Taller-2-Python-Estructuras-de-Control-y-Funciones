@@ -1,5 +1,3 @@
-#Crear un simulador de descuentos que solicite al usuario su categoría (A, B, C) y el monto de compra. Aplicar los siguientes descuentos según categoría: A=20%, B=15%, C=10%. Para cualquier otra categoría no aplicar descuento. Mostrar el monto final a pagar y la cantidad ahorrada.
-
 from colorama import init, Fore, Style, Back
 
 init(autoreset=True)

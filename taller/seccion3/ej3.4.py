@@ -1,5 +1,3 @@
-#Desarrollar un programa que solicite al usuario un número y genere su tabla de multiplicar del 1 al 10. Luego, debe preguntar si desea generar otra tabla, continuando este proceso hasta que el usuario decida salir.
-
 from colorama import init, Fore, Style, Back
 
 init(autoreset=True)
